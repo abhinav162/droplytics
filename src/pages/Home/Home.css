@@ -1,0 +1,41 @@
+.main-container {
+  display: flex;
+}
+
+.main-container .carousel-container {
+  width: 923px;
+  margin: 10px;
+}
+
+.main-container .announcement-container {
+  width: 400px;
+  height: 600px;
+  margin: 10px;
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 3px solid #cdcdcd;
+}
+
+.main-container .announcement-container h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 900;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+.main-container .announcement-container Marquee .rfm-marquee-container {
+  background: red;
+}
+
+.main-container .announcement-container .announcements .announcement1 h2, .main-container .announcement-container .announcements .announcement2 h2, .main-container .announcement-container .announcements .announcement3 h2 {
+  font-weight: 350;
+  font-size: 700;
+  margin: 1rem;
+}
+
+.main-container .announcement-container .announcements .announcement1 p, .main-container .announcement-container .announcements .announcement2 p, .main-container .announcement-container .announcements .announcement3 p {
+  margin: 1rem;
+}

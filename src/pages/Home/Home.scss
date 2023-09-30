@@ -1,0 +1,49 @@
+.main-container {
+    display: flex;
+    
+    .carousel-container {
+        width: 923px;
+        margin: 10px;
+    }
+    
+    .announcement-container {
+        width: 400px;
+        height: 600px;
+        margin: 10px;
+        margin-top: 20px;
+        background: white;
+        border-radius: 10px;
+        padding: 1rem;
+        border: 3px solid rgb(205, 205, 205);
+        h1{
+            text-align: center;
+            font-weight: 400;
+            font-size: 900;
+            margin-bottom: 2rem;
+            margin-top: 0.5rem;
+        }
+        Marquee{
+            .rfm-marquee-container {
+                background: red;
+            }
+        }
+      
+        .announcements{
+            .announcement1,.announcement2,.announcement3{
+                h2{
+                    font-weight: 350;
+                    font-size: 700;
+                    margin:1rem;
+                }
+                p{
+                    margin: 1rem;
+                }
+                
+            }
+        }
+        
+        
+    }
+    
+} 
+
